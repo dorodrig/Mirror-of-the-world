@@ -23,7 +23,7 @@ const IndexJs = ()=>{
                         </picture>
                    
                     </figure>
-                    <p>nombre</p>
+                    <p>nombre david</p>
                     <h3>titulo</h3>
                     <p>descripcion</p>
                     <h4>autor</h4>
