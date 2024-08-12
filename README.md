@@ -1,5 +1,7 @@
 Mirror of the World 🌍
 ¡Bienvenidos a Mirror of the World! Esta aplicación interactiva te invita a embarcarte en una aventura digital, donde puedes capturar y compartir tus momentos más especiales con una comunidad global. Únete a nosotros para explorar el mundo a través de imágenes y fotografías, y encuentra inspiración en la creatividad de otros.
+![WhatsApp Image 2024-08-11 at 8 47 21 PM](https://github.com/user-attachments/assets/9292e091-ac42-4700-9366-e63ae283c6bd)
+
 
 Descripción 📸
 Mirror of the World es una aplicación web construida con React, diseñada para ser una plataforma donde los usuarios pueden capturar, subir, y compartir fotografías. La aplicación ofrece una experiencia de usuario mágica e inmersiva, permitiendo la interacción a través de una galería comunitaria y un sistema de registro y autenticación seguro.
