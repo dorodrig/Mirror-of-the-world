@@ -61,6 +61,7 @@ const SignIn = () => {
             <p className="error">Valid password required</p>
           </fieldset>
           <button type="submit">login</button>
+          <button  onClick={() => setStep("index")} type="submit">home</button>
           <div className="forgot" onClick={() => setStep("forgot")}>
             Forgot password?
           </div>

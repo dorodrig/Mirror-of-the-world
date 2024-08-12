@@ -20,7 +20,7 @@ Clona el repositorio:
 
 
 Copiar código
-git clone https://github.com/tuusuario/mirror-of-the-world.git
+git clone https://github.com/dorodrig/Mirror-of-the-world.git
 Instala las dependencias:
 
 

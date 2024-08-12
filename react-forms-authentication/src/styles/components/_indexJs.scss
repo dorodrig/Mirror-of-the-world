@@ -62,11 +62,12 @@ p{
     flex-direction: row;
     padding: 1.5rem;
     margin: 0 1.5rem;
+    
     border-radius: 10px;    
     width: auto;
     text-align: center;    
     .slider{
-        
+        margin-right: 2rem;
         box-shadow: v.$main-shadow;        
         background-image: v.$main-bg;
         width: 800px;

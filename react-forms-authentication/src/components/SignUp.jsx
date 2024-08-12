@@ -67,12 +67,12 @@ const SignUp = () => {
               />
             </fieldset>
             <fieldset>
-              <label htmlFor="framework">Favorite framework</label>
+              <label htmlFor="framework">Favorite photographs</label>
               <Field name="framework" id="framework" as="select">
-                <option value="">Select your framework</option>
-                <option value="react">React</option>
-                <option value="vue">Vue</option>
-                <option value="angular">Angular</option>
+                <option value="">Select your Favorite</option>
+                <option value="react">Animals</option>
+                <option value="vue">Art</option>
+                <option value="angular">Universe</option>
               </Field>
               <ErrorMessage
                 name="framework"
@@ -92,6 +92,7 @@ const SignUp = () => {
               />
             </fieldset>
             <button type="submit">Register</button>
+            <button  onClick={() => setStep("index")} type="submit">home</button>
           </Form>
         </Formik>
       </div>

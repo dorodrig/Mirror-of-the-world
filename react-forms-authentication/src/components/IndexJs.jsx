@@ -1,8 +1,11 @@
 import ImageSlider from "./ImageSlider";
 import ImageUploader from "./ImageUploader";
+import { useContext } from "react";
+import AuthContext from "../context/AuthContext";
 
 //import { useContext } from "react";
 const IndexJs = ()=>{
+  let { setStep } = useContext(AuthContext);
     return (
           <>
           <main>
@@ -15,8 +18,8 @@ const IndexJs = ()=>{
                     <li>Naturaleza</li>
                     <li>Explora el universo</li>
                     <li>La vista del humano</li>
-                    <li>Registrate</li>
-                    <li>Ingresa</li>
+                    <li onClick={() => setStep("signup")}>Registrate</li>
+                    <li onClick={() => setStep("signin")} >Ingresa </li>
                 </ul>
                </nav>
             </header>            
@@ -28,8 +31,8 @@ const IndexJs = ()=>{
             <div className="container_primary_2">
                 <ImageUploader/>
             <ul className="lista">
-            <li>Registrate</li>
-            <li>Ingresa</li>
+            <li onClick={() => setStep("signup")}>Registrate</li>
+            <li onClick={() => setStep("signin")} >Ingresa </li>
             </ul>
              </div>  
             </div>  
