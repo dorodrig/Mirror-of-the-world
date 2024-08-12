@@ -1,8 +1,15 @@
+import ImageSlider from "./ImageSlider";
+import ImageUploader from "./ImageUploader";
+
 //import { useContext } from "react";
 const IndexJs = ()=>{
     return (
           <>
-            <header>
+          <main>
+          <h1>Mirror of the world</h1>
+          </main>
+          
+            <header className="header_index">
                <nav>
                 <ul>
                     <li>Naturaleza</li>
@@ -12,28 +19,21 @@ const IndexJs = ()=>{
                     <li>Ingresa</li>
                 </ul>
                </nav>
-            </header>
-           <form action="">
-           <section className="section_primary">
-            <div className="container_primary">
-                <article className="imagen_1">
-                    <figure>
-                        <picture>
-                        <img src="https://imagenes.eltiempo.com/files/image_414_294/files/fp/uploads/2024/08/11/66b93336723fc.r_d.800-360.jpeg" alt="" />
-                        </picture>
-                   
-                    </figure>
-                    <p>nombre david</p>
-                    <h3>titulo</h3>
-                    <p>descripcion</p>
-                    <h4>autor</h4>
-
-                </article>
-
-            </div>
-           </section>
-           </form>
-                   
+            </header>            
+           <p> 
+           Mirror of the World es una comunidad interactiva creada para transmitir, a través de imágenes y fotografías, los sentimientos y maravillas que podemos observar en el mundo, el universo y la naturaleza. Nuestra misión es construir una comunidad dinámica e inclusiva que invite a los usuarios a embarcarse en una aventura digital, capturando momentos especiales y compartiéndolos con otros. Queremos inspirar creatividad y ser una fuente de inspiración para el resto del mundo.
+           </p>  
+           <div className="container_primary">                              
+             <ImageSlider/>
+            <div className="container_primary_2">
+                <ImageUploader/>
+            <ul className="lista">
+            <li>Registrate</li>
+            <li>Ingresa</li>
+            </ul>
+             </div>  
+            </div>  
+                             
           </>
     );
       
